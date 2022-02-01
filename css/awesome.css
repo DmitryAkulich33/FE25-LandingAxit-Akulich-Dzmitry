@@ -1,0 +1,89 @@
+.awesome-title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 100px 0 0;
+  width: 410px;
+  margin: auto;
+}
+
+.awesome-line {
+  width: 65px;
+  border-top: solid 1px #d98943;
+  margin: 25px auto 30px;
+}
+
+.awesome-subtitle {
+  text-align: center;
+  margin-bottom: 55px;
+  color: #86878b;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.awesome-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px -15px;
+}
+
+.awesome-card {
+  width: 350px;
+  margin: 0 15px;
+  overflow: hidden;
+}
+
+.awesome-card-content {
+  padding: 15px;
+}
+
+.awesome-card-img {
+  border: solid 2px #d98943;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+}
+
+.awesome-card-img img {
+  margin: auto;
+  display: block;
+}
+
+.awesome-card-img__lamp img {
+  margin-top: 20px;
+}
+
+.awesome-card-img__keyboard img {
+  margin-top: 23px;
+}
+
+.awesome-card-img__lightning img {
+  margin-top: 21px;
+}
+
+.awesome-card-text p {
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.awesome-card-title {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
