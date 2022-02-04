@@ -11,6 +11,34 @@
 
 .container {
   max-width: 1170px;
-  padding: 0 15px;
+  padding: 100px 0;
   margin: auto;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 410px;
+  margin: auto;
+}
+
+.line {
+  width: 65px;
+  border-top: 1px solid #d98943;
+  margin: 25px auto 30px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #86878b;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  width: 500px;
+  margin: 0 auto 55px;
 }
