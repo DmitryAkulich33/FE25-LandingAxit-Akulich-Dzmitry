@@ -1,5 +1,6 @@
 @import url('../css/awesome.css');
 @import url('../css/cdn.css');
+@import url('../css/pricing.css');
 
 * {
   margin: 0;
@@ -11,7 +12,7 @@
 
 .container {
   max-width: 1170px;
-  padding: 100px 0;
+  padding: 100px 15px;
   margin: auto;
 }
 

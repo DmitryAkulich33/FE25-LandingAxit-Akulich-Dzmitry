@@ -1,0 +1,67 @@
+.pricing__bg {
+  background-color: #f5f5f5;
+}
+
+.pricing-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+}
+
+.pricing-card {
+  width: 340px;
+  margin: 0 15px;
+}
+
+.pricing-card-list-item {
+  background-color: #ffffff;
+  margin-bottom: 4px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #86878b;
+}
+
+.pricing-card-list-item__name {
+  background: #333333;
+  height: 50px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pricing-card-list-item__cost {
+  background: #333333;
+  height: 100px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pricing-card-list-item__free {
+  background: #333333;
+  height: 50px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-card-list-item_color {
+  background: #d98943;
+}
