@@ -65,3 +65,7 @@
 .pricing-card-list-item_color {
   background: #d98943;
 }
+
+.pricing .line {
+  border-top: 1px solid #e72424;
+}

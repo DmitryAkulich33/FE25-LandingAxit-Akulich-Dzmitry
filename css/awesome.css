@@ -43,3 +43,7 @@
   font-weight: 600;
   font-size: 20px;
 }
+
+.awesome .line {
+  border-top: 1px solid #d98943;
+}
