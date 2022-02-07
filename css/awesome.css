@@ -44,6 +44,6 @@
   font-size: 20px;
 }
 
-.awesome .line {
-  border-top: 1px solid #d98943;
+.awesome .title::after {
+  background-color: #d98943;
 }

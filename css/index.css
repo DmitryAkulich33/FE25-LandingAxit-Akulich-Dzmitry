@@ -27,9 +27,12 @@
   margin: auto;
 }
 
-.line {
-  width: 65px;
+.title::after {
+  content: '';
+  display: block;
   margin: 25px auto 30px;
+  width: 65px;
+  height: 1px;
 }
 
 .subtitle {
