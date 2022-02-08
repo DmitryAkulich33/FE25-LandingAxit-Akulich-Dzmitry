@@ -69,7 +69,3 @@
 .pricing-card-list__item_color {
   background: #d98943;
 }
-
-.pricing .title::after {
-  background-color: #e72424;
-}

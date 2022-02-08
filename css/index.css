@@ -1,6 +1,7 @@
 @import url('../css/awesome.css');
 @import url('../css/cdn.css');
 @import url('../css/pricing.css');
+@import url('../css/customers.css');
 
 * {
   margin: 0;
@@ -23,7 +24,7 @@
   font-size: 36px;
   text-align: center;
   text-transform: uppercase;
-  width: 410px;
+  width: 70%;
   margin: auto;
 }
 
@@ -33,6 +34,7 @@
   margin: 25px auto 30px;
   width: 65px;
   height: 1px;
+  background-color: #e72424;
 }
 
 .subtitle {
@@ -42,6 +44,6 @@
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  width: 500px;
+  width: 70%;
   margin: 0 auto 55px;
 }
