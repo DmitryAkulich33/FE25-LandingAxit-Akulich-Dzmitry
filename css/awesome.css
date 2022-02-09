@@ -1,3 +1,7 @@
+.awesome .container {
+  padding-top: 80px;
+}
+
 .awesome-row {
   display: flex;
   justify-content: space-around;
