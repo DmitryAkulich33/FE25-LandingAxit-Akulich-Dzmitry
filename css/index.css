@@ -19,7 +19,6 @@
 
 .title {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 36px;
   text-align: center;
@@ -41,9 +40,11 @@
   text-align: center;
   color: #86878b;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
   font-weight: normal;
   width: 70%;
   margin: 0 auto 55px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }

@@ -21,8 +21,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   text-align: center;
@@ -33,39 +31,32 @@
   margin-bottom: 0;
 }
 
-.pricing-card-list__item__name {
+.pricing-card-list__item:nth-child(1) {
   background: #333333;
   padding: 15px;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 2px;
 }
 
-.pricing-card-list__item__cost {
+.pricing-card-list__item:nth-child(2) {
   background: #333333;
   padding: 35px 0;
-  font-family: Raleway;
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 35px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 2px;
 }
 
-.pricing-card-list__item__free {
+.pricing-card-list__item:nth-child(3) {
   background: #333333;
   padding: 13px 0;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-}
-
-.pricing-card-list__item_color {
-  background: #d98943;
 }
