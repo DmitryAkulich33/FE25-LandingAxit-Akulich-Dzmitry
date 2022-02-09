@@ -1,3 +1,8 @@
+.customers .container {
+  padding-bottom: 120px;
+  padding-top: 80px;
+}
+
 .customers-row {
   display: flex;
   justify-content: space-around;

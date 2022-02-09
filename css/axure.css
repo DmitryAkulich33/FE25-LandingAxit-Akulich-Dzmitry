@@ -9,6 +9,8 @@
 .axure .container {
   position: relative;
   z-index: 1;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .axure .title {
@@ -49,9 +51,4 @@
   text-align: center;
   color: #ffffff;
   padding: 11px 25px;
-}
-
-.axure .container {
-  padding-top: 60px;
-  padding-bottom: 40px;
 }
