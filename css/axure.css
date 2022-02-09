@@ -1,0 +1,52 @@
+.axure {
+  background-image: url('../img/bg/bgAxure.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.axure .container {
+}
+
+.axure .title {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+}
+
+.axure .title::after {
+  background-color: #ffffff;
+}
+
+.axure .subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.axure .container::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 2;
+}
+.download {
+  border: 1px solid #ffffff;
+  width: 135px;
+  margin: auto;
+}
+
+.download p {
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  padding: 11px 25px;
+}
+
+.axure .container {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
