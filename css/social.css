@@ -1,0 +1,59 @@
+.social {
+  background-color: #f8efef;
+}
+
+.social-title {
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+  color: #333333;
+  margin-bottom: 14px;
+}
+
+.social .text {
+  font-weight: normal;
+  font-size: 14px;
+  align-items: center;
+  color: #86878b;
+}
+
+.social-icons-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.social .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.socila-text {
+  width: 370px;
+  margin: 14px 20px 17px 0;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons-list__item {
+  margin-left: 50px;
+}
+
+.social .fa-brands {
+  font-size: 40px;
+  color: rgba(151, 148, 148, 0.322);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.social .fa-brands:hover {
+  color: rgba(44, 44, 44, 0.322);
+  transform: scale(1.4);
+  cursor: pointer;
+}

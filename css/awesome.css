@@ -26,6 +26,12 @@
   justify-content: center;
 }
 
+.awesome .fa-solid,
+.awesome .fa-brands {
+  font-size: 30px;
+  color: #d98943;
+}
+
 .awesome-card-text p {
   font-weight: normal;
   font-size: 14px;

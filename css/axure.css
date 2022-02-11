@@ -9,8 +9,7 @@
 .axure .container {
   position: relative;
   z-index: 1;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding: 60px 0 40px;
 }
 
 .axure .title {
@@ -51,4 +50,10 @@
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.download:hover {
+  background-color: #cac6c6;
+  color: rgb(90, 88, 88);
 }

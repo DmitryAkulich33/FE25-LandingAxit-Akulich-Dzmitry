@@ -1,0 +1,45 @@
+footer {
+  background-color: #000000;
+}
+
+.footer-text {
+  width: 20%;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  padding-bottom: 16px;
+}
+
+footer .fa-brands {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.footer-icons {
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+
+.footer-icons-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer-icons-list__item {
+  margin: 0 15px;
+}
+
+.footer .container {
+  padding: 0 0;
+}
+
+footer .fa-brands:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+  color: white;
+}

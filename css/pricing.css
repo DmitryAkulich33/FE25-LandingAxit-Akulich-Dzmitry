@@ -19,6 +19,11 @@
   margin: 0 15px;
 }
 
+.pricing-card:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 20px 20px 20px 0px rgba(26, 25, 25, 0.3);
+}
+
 .pricing-card-list__item {
   background-color: #ffffff;
   margin-bottom: 4px;
