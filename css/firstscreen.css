@@ -1,0 +1,163 @@
+.firstscreen {
+  background-image: url('../img/bg/bgFirstScreen.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.firstscreen::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  height: 100%;
+}
+
+.firstscreen .container {
+  padding-top: 108px;
+  padding-bottom: 101px;
+  position: relative;
+  z-index: 1;
+}
+
+.firstscreen-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.firstscreen-title {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.firstscreen-title::after {
+  content: 'IT';
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 60px;
+  color: #ec7979;
+}
+
+.firstscreen-subtitle {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.firstscreen-row-left {
+  width: 545px;
+}
+
+.firstscreen-subtitle::after {
+  content: '';
+  display: block;
+  margin: 40px 0;
+  width: 65px;
+  height: 2px;
+  background-color: #86878b;
+}
+
+.firstscreen-subtitle-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #86878b;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.firstscreen-download {
+  display: block;
+  width: 135px;
+  background-color: transparent;
+  border: 1px solid #86878b;
+  padding: 11px 25px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.firstscreen-download:hover {
+  background-color: #f0ecec;
+  color: rgb(90, 88, 88);
+}
+
+.firstscreen-card {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 370px;
+  overflow: hidden;
+}
+
+.firstscreen-card-content {
+  height: 315px;
+}
+
+.firstscreen-card-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  padding: 15px 0;
+}
+
+.firstscreen-card-title-first-part::after {
+  content: ' FREE';
+  color: #ec7979;
+}
+
+.firstscreen-card-button {
+  width: 100%;
+  height: 55px;
+  background-color: #ec7979;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.firstscreen-card-button:hover {
+  background-color: #4beb36;
+  color: rgb(90, 88, 88);
+}
+
+.firstscreen-card-list {
+  padding: 30px 60px 115px;
+}
+
+.firstscreen-card-list__item input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  color: #bdbdbd;
+  line-height: 50px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* .firstscreen-card-list__item::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #bdbdbd;
+  margin-top: 15px;
+} */
