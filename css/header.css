@@ -1,0 +1,60 @@
+header {
+  background: #000000;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+}
+
+header .container {
+  padding-top: 20px;
+  padding-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo-text-first-part {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.logo-text-first-part::after {
+  content: 'IT';
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  color: #ec7979;
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+}
+
+header .menu-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+header .menu-list__item {
+  margin-right: 45px;
+}
+
+header .menu-list__item a {
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+header .menu-list__item a:hover {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+}
+
+header .menu-list__item:last-child {
+  margin-right: 0;
+}
