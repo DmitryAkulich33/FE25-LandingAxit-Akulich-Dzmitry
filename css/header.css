@@ -3,6 +3,7 @@ header {
   position: sticky;
   width: 100%;
   top: 0px;
+  z-index: 5;
 }
 
 header .container {
@@ -49,6 +50,7 @@ header .menu-list__item a {
   font-weight: 600;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
+  transition: 0.2s;
 }
 
 header .menu-list__item a:hover {

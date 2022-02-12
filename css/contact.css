@@ -1,0 +1,88 @@
+.contact .container {
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+
+.contact .subtitle {
+  margin-bottom: 90px;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.contact-row-left {
+  width: 475px;
+}
+
+.contact-row-right {
+  width: 475px;
+}
+
+.send-message {
+  margin: auto;
+  display: block;
+  width: 170px;
+  height: 45px;
+  background-color: #ec7979;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+.send-message:hover {
+  background-color: #4beb36;
+  color: rgb(90, 88, 88);
+}
+
+.contact-card-list__item input:hover {
+  background-color: rgb(240, 235, 235);
+}
+
+.contact-card-list__item {
+  margin-bottom: 32px;
+}
+
+.contact-card-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-card-list__item input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  color: #bdbdbd;
+  width: 100%;
+  font-size: 21px;
+}
+
+.contact-row-left .text-input {
+  margin-bottom: 11px;
+  display: block;
+}
+
+.contact-row-right textarea {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  color: #bdbdbd;
+  line-height: 21px;
+  width: 100%;
+  resize: none;
+  font-weight: normal;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact-row-right textarea:hover {
+  background-color: rgb(240, 235, 235);
+}

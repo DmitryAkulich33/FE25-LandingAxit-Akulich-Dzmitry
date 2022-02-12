@@ -58,6 +58,7 @@
 
 .firstscreen-row-left {
   width: 545px;
+  padding-right: 5px;
 }
 
 .firstscreen-subtitle::after {
@@ -103,10 +104,6 @@
   overflow: hidden;
 }
 
-.firstscreen-card-content {
-  height: 315px;
-}
-
 .firstscreen-card-title {
   font-weight: bold;
   font-size: 20px;
@@ -139,7 +136,11 @@
 }
 
 .firstscreen-card-list {
-  padding: 30px 60px 115px;
+  margin: 34px 60px 60px;
+}
+
+.firstscreen-card-list__item input:hover {
+  background-color: rgb(240, 235, 235);
 }
 
 .firstscreen-card-list__item input {
@@ -147,17 +148,12 @@
   border: none;
   border-bottom: 1px solid #bdbdbd;
   color: #bdbdbd;
-  line-height: 50px;
   width: 100%;
   font-weight: normal;
   font-size: 14px;
+  margin-bottom: 17px;
 }
 
-/* .firstscreen-card-list__item::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #bdbdbd;
-  margin-top: 15px;
-} */
+.firstscreen-card-list__item:last-child input {
+  margin-bottom: 0px;
+}
