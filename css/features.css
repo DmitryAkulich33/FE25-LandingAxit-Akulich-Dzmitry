@@ -11,6 +11,14 @@
   align-items: center;
 }
 
+.feature-image {
+  width: 320px;
+  height: 253px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .feature-image img {
   width: 100%;
 }
