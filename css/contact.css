@@ -13,15 +13,17 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 70px;
+  margin: 0 -15px 70px;
 }
 
 .contact-row-left {
   width: 475px;
+  margin: 0 15px;
 }
 
 .contact-row-right {
   width: 475px;
+  margin: 0 15px;
 }
 
 .send-message {
