@@ -29,6 +29,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  margin: 0 -15px;
 }
 
 .firstscreen-title {
@@ -58,7 +59,11 @@
 
 .firstscreen-row-left {
   width: 545px;
-  padding-right: 5px;
+  margin: 0 15px;
+}
+
+.firstscreen-row-right {
+  margin: 0 15px;
 }
 
 .firstscreen-subtitle::after {
