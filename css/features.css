@@ -13,33 +13,119 @@
 }
 
 .features-tab {
-  margin: 0 15px;
+  margin: 0 73px 0 15px;
 }
 
-.feature-image {
+.features-item-image {
   width: 320px;
   height: 253px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 15px;
+  margin: -25px 15px 0;
 }
 
-.feature-image img {
+.features-item-image img {
   width: 100%;
 }
 
-.feature-tab-list__item {
-  font-weight: bold;
-  font-size: 15px;
+.features-tab-list__item {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-transform: uppercase;
-  color: #ffffff;
   width: 110px;
   height: 110px;
-  background: #333333;
   border-radius: 4px;
   margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.features-tab-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.features-btn {
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: #333333;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.features-btn:hover {
+  background-color: #ec7979;
+}
+
+.features-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.features-item-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 58px;
+}
+
+.features-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.features-item-data {
+  width: 575px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.features-item-text,
+.features-item-text-description {
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #86878b;
+  text-align: left;
+}
+
+.features-download {
+  width: 135px;
+  height: 42px;
+  background-color: #ec7979;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 90px;
+  cursor: pointer;
+}
+
+.features-download:hover {
+  background-color: #4beb36;
+  color: rgb(90, 88, 88);
+}
+
+.features-content {
+  margin-left: 15px;
+}
+
+.features-item:nth-child(2),
+.features-item:nth-child(3) {
+  display: none;
 }
