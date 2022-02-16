@@ -4,19 +4,22 @@ header {
   width: 100%;
   top: 0px;
   z-index: 5;
-}
-
-header .container {
+  padding: 20px 0 19px;
   padding-top: 20px;
   padding-bottom: 19px;
+}
+
+.header-row {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 0 -15px;
 }
 
 .logo-text {
-  margin-right: 15px;
+  margin: 0 15px;
 }
 
 .logo-text-first-part {
@@ -35,8 +38,8 @@ header .container {
 }
 
 header .menu {
-  display: flex;
-  align-items: center;
+  width: 500px;
+  margin: 0 15px;
 }
 
 header .menu-list {
@@ -45,13 +48,16 @@ header .menu-list {
   flex-direction: row;
   align-content: center;
   flex-wrap: wrap;
-  width: 500px;
 }
 
 header .menu-list__item {
-  margin-right: 45px;
+  margin-left: 45px;
   border-bottom: 3px solid rgba(255, 255, 255, 0);
   transition: 0.2s;
+}
+
+header .menu-list__item:first-child {
+  margin-left: 0;
 }
 
 header .menu-list__item a {
@@ -62,8 +68,4 @@ header .menu-list__item a {
 
 header .menu-list__item:hover {
   border-bottom: 3px solid rgba(255, 255, 255, 0.7);
-}
-
-header .menu-list__item:last-child {
-  margin-right: 0;
 }

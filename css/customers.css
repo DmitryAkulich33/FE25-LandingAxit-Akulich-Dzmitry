@@ -1,6 +1,5 @@
-.customers .container {
-  padding-bottom: 120px;
-  padding-top: 80px;
+.customers {
+  padding: 80px 0 120px;
 }
 
 .customers-row {

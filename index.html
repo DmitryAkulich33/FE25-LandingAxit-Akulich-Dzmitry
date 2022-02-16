@@ -10,28 +10,30 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="logo-text">
-          <span class="logo-text-first-part">AX</span>
+        <div class="header-row">
+          <div class="logo-text">
+            <span class="logo-text-first-part">AX</span>
+          </div>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-list__item">
+                <a href="#features">Features</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#awesome">About</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#pricing">Pricing</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#customers">Reviews</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="menu">
-          <ul class="menu-list">
-            <li class="menu-list__item">
-              <a href="#features">Features</a>
-            </li>
-            <li class="menu-list__item">
-              <a href="#awesome">About</a>
-            </li>
-            <li class="menu-list__item">
-              <a href="#pricing">Pricing</a>
-            </li>
-            <li class="menu-list__item">
-              <a href="#customers">Reviews</a>
-            </li>
-            <li class="menu-list__item">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
 
@@ -62,22 +64,42 @@
                     >Trial Today</span
                   >
                 </div>
-                <ul class="firstscreen-card-list">
-                  <li class="firstscreen-card-list__item">
-                    <span class="text-input">Name</span>
-                    <input type="text" />
-                  </li>
-                  <li class="firstscreen-card-list__item">
-                    <span class="text-input">Email</span>
-                    <input type="text" />
-                  </li>
-                  <li class="firstscreen-card-list__item">
-                    <span class="text-input">Password</span>
-                    <input type="text" />
-                  </li>
-                </ul>
+                <div class="firstscreen-user-login">
+                  <form action="form-login" name="form-name">
+                    <div class="firstscreen-user-inputs">
+                      <label for="username" class="text-input">Name</label>
+                      <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        value=""
+                      />
+                      <label for="useremail" class="text-input">Email</label>
+                      <input
+                        type="email"
+                        name="useremail"
+                        id="useremail"
+                        value=""
+                      />
+                      <label for="userpassword" class="text-input"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        name="userpassword"
+                        id="userpassword"
+                        value=""
+                      />
+                    </div>
+                    <input
+                      type="submit"
+                      class="firstscreen-card-button"
+                      id="firstscreen-card-button"
+                      value="Get Started"
+                    />
+                  </form>
+                </div>
               </div>
-              <button class="firstscreen-card-button">Get Started</button>
             </div>
           </div>
         </div>
@@ -86,39 +108,41 @@
 
     <section class="social">
       <div class="container">
-        <div class="socila-text">
-          <h2 class="social-title">Social Media</h2>
-          <div class="text">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              impedit ut id.
-            </p>
+        <div class="social-row">
+          <div class="social-text">
+            <h2 class="social-title">Social Media</h2>
+            <div class="text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                impedit ut id.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="social-icons">
-          <ul class="social-icons-list">
-            <li class="social-icons-list__item">
-              <i class="fa-brands fa-facebook-f"></i>
-            </li>
-            <li class="social-icons-list__item">
-              <i class="fa-brands fa-twitter"></i>
-            </li>
-            <li class="social-icons-list__item">
-              <i class="fa-brands fa-google-plus-g"></i>
-            </li>
-            <li class="social-icons-list__item">
-              <i class="fa-brands fa-apple"></i>
-            </li>
-            <li class="social-icons-list__item">
-              <i class="fa-brands fa-instagram"></i>
-            </li>
-            <li class="social-icons-list__item">
-              <i class="fa-brands fa-angular"></i>
-            </li>
-            <li class="social-icons-list__item">
-              <i class="fa-brands fa-react"></i>
-            </li>
-          </ul>
+          <div class="social-icons">
+            <ul class="social-icons-list">
+              <li class="social-icons-list__item">
+                <a href="#" class="fa-brands fa-facebook-f"></a>
+              </li>
+              <li class="social-icons-list__item">
+                <a href="#" class="fa-brands fa-twitter"></a>
+              </li>
+              <li class="social-icons-list__item">
+                <a href="#" class="fa-brands fa-google-plus-g"></a>
+              </li>
+              <li class="social-icons-list__item">
+                <a href="#" class="fa-brands fa-apple"></a>
+              </li>
+              <li class="social-icons-list__item">
+                <a href="#" class="fa-brands fa-instagram"></a>
+              </li>
+              <li class="social-icons-list__item">
+                <a href="#" class="fa-brands fa-angular"></a>
+              </li>
+              <li class="social-icons-list__item">
+                <a href="#" class="fa-brands fa-react"></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -407,14 +431,14 @@
 
     <section class="axure">
       <div class="container">
-        <h2 class="title">Stylish axure design</h2>
-        <div class="subtitle">
-          <p>
-            Use the sections you need, remove the ones you don't. Create
-            gorgeous prototypes faster than ever!
-          </p>
-        </div>
-        <div>
+        <div class="axure-content">
+          <h2 class="title">Stylish axure design</h2>
+          <div class="subtitle">
+            <p>
+              Use the sections you need, remove the ones you don't. Create
+              gorgeous prototypes faster than ever!
+            </p>
+          </div>
           <button class="download">Download</button>
         </div>
       </div>
@@ -431,16 +455,32 @@
             <div class="contact-card">
               <ul class="contact-card-list">
                 <li class="contact-card-list__item">
-                  <span class="text-input">Name</span>
-                  <input type="text" />
+                  <form action="#" name="form-name">
+                    <label for="username" class="text-input">Name</label>
+                    <input type="text" name="username" id="username" value="" />
+                  </form>
                 </li>
                 <li class="contact-card-list__item">
-                  <span class="text-input">Email</span>
-                  <input type="text" />
+                  <form action="#" name="form-email">
+                    <label for="useremail" class="text-input">Name</label>
+                    <input
+                      type="text"
+                      name="useremail"
+                      id="useremail"
+                      value=""
+                    />
+                  </form>
                 </li>
                 <li class="contact-card-list__item">
-                  <span class="text-input">Password</span>
-                  <input type="text" />
+                  <form action="#" name="form-password">
+                    <label for="userpassword" class="text-input">Name</label>
+                    <input
+                      type="text"
+                      name="userpassword"
+                      id="userpassword"
+                      value=""
+                    />
+                  </form>
                 </li>
               </ul>
             </div>
@@ -454,30 +494,30 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
         <div class="footer-icons">
           <ul class="footer-icons-list">
             <li class="footer-icons-list__item">
-              <i class="fa-brands fa-facebook-f"></i>
+              <a href="#" class="fa-brands fa-facebook-f"></a>
             </li>
             <li class="footer-icons-list__item">
-              <i class="fa-brands fa-twitter"></i>
+              <a href="#" class="fa-brands fa-twitter"></a>
             </li>
             <li class="footer-icons-list__item">
-              <i class="fa-brands fa-google-plus-g"></i>
+              <a href="#" class="fa-brands fa-google-plus-g"></a>
             </li>
             <li class="footer-icons-list__item">
-              <i class="fa-brands fa-apple"></i>
+              <a href="#" class="fa-brands fa-apple"></a>
             </li>
             <li class="footer-icons-list__item">
-              <i class="fa-brands fa-instagram"></i>
+              <a href="#" class="fa-brands fa-instagram"></a>
             </li>
             <li class="footer-icons-list__item">
-              <i class="fa-brands fa-angular"></i>
+              <a href="#" class="fa-brands fa-angular"></a>
             </li>
             <li class="footer-icons-list__item">
-              <i class="fa-brands fa-react"></i>
+              <a href="#" class="fa-brands fa-react"></a>
             </li>
           </ul>
         </div>

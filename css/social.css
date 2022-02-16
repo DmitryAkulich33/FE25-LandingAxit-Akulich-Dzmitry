@@ -1,11 +1,18 @@
 .social {
   background-color: #f8efef;
+  padding: 14px 0 17px;
+}
+
+.social-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 -15px;
 }
 
 .social-title {
   font-weight: bold;
   font-size: 20px;
-  align-items: center;
   color: #333333;
   margin-bottom: 14px;
 }
@@ -13,7 +20,7 @@
 .social .text {
   font-weight: normal;
   font-size: 14px;
-  align-items: center;
+  text-align: left;
   color: #86878b;
 }
 
@@ -25,24 +32,23 @@
   flex-wrap: wrap;
 }
 
-.social .container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.socila-text {
+.social-text {
   width: 370px;
-  margin: 14px 20px 17px 0;
+  margin: 0 15px;
 }
 
 .social-icons {
   display: flex;
   align-items: center;
+  margin: 0 15px;
 }
 
 .social-icons-list__item {
   margin-left: 50px;
+}
+
+.social-icons-list__item:first-child {
+  margin-left: 0px;
 }
 
 .social .fa-brands {

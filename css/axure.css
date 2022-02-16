@@ -4,12 +4,12 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  padding: 60px 0 40px;
 }
 
 .axure .container {
   position: relative;
   z-index: 1;
-  padding: 60px 0 40px;
 }
 
 .axure .title {
