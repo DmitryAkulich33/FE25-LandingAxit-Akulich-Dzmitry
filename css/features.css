@@ -1,6 +1,5 @@
-.features .container {
-  padding-top: 125px;
-  padding-bottom: 125px;
+.features {
+  padding: 125px 0 125px;
 }
 
 .features-row {
@@ -22,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: -25px 15px 0;
+  margin: 0 15px 0;
 }
 
 .features-item-image img {
@@ -74,7 +73,6 @@
   text-align: left;
   text-transform: uppercase;
   color: #000000;
-  margin-bottom: 58px;
 }
 
 .features-item {
@@ -87,10 +85,11 @@
 
 .features-item-data {
   width: 575px;
-  height: 350px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+}
+
+.features-item-text {
+  padding-top: 71px;
+  padding-bottom: 25px;
 }
 
 .features-item-text,

@@ -1,13 +1,22 @@
-.contact .container {
-  padding-top: 80px;
-  padding-bottom: 45px;
+.contact {
+  padding: 80px 0 45px;
 }
 
 .contact .subtitle {
   margin-bottom: 90px;
 }
 
-.contact-row {
+.contact-form-row-left {
+  width: 40%;
+  margin: 0 15px;
+}
+
+.contact-form-row-right {
+  width: 40%;
+  margin: 0 15px;
+}
+
+.contact-form-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,14 +25,23 @@
   margin: 0 -15px 70px;
 }
 
-.contact-row-left {
-  width: 475px;
-  margin: 0 15px;
+.contact-form-row input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  color: #bdbdbd;
+  width: 100%;
+  font-size: 21px;
+  display: block;
 }
 
-.contact-row-right {
-  width: 475px;
-  margin: 0 15px;
+.contact-form-row label {
+  display: block;
+}
+
+.contact-form-row-left label {
+  padding-bottom: 7px;
 }
 
 .send-message {
@@ -46,45 +64,28 @@
   color: rgb(90, 88, 88);
 }
 
-.contact-card-list__item input:hover {
-  background-color: rgb(240, 235, 235);
-}
-
-.contact-card-list__item {
-  margin-bottom: 32px;
-}
-
-.contact-card-list__item:last-child {
-  margin-bottom: 0;
-}
-
-.contact-card-list__item input {
+.contact-form-row-right textarea {
   outline: none;
   border: none;
   border-bottom: 1px solid #bdbdbd;
   color: #bdbdbd;
-  width: 100%;
-  font-size: 21px;
-}
-
-.contact-row-left .text-input {
-  margin-bottom: 11px;
-  display: block;
-}
-
-.contact-row-right textarea {
-  outline: none;
-  border: none;
-  border-bottom: 1px solid #bdbdbd;
-  color: #bdbdbd;
-  line-height: 21px;
   width: 100%;
   resize: none;
   font-weight: normal;
   display: flex;
   align-items: flex-end;
+  height: 198px;
 }
 
-.contact-row-right textarea:hover {
+.contact-form-row-right textarea:hover {
   background-color: rgb(240, 235, 235);
+}
+
+.contact-form-row input:hover {
+  background-color: rgb(240, 235, 235);
+}
+
+.contact-form-item__name input,
+.contact-form-item__email input {
+  margin-bottom: 32px;
 }
