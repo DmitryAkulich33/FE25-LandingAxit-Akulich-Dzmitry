@@ -20,7 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
   flex-wrap: wrap;
   margin: 0 -15px 70px;
 }
@@ -72,8 +71,7 @@
   width: 100%;
   resize: none;
   font-weight: normal;
-  display: flex;
-  align-items: flex-end;
+  display: block;
   height: 198px;
 }
 

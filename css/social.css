@@ -6,7 +6,6 @@
 .social-row {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   margin: 0 -15px;
 }
 
@@ -27,7 +26,6 @@
 .social-icons-list {
   display: flex;
   justify-content: center;
-  flex-direction: row;
   align-content: center;
   flex-wrap: wrap;
 }

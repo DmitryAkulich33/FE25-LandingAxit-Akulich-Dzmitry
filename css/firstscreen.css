@@ -25,7 +25,6 @@
 .firstscreen-row {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
@@ -162,16 +161,6 @@
 .firstscreen-form-item__email {
   padding-bottom: 20px;
 }
-
-/* .firstscreen-user-inputs {
-  margin: 45px 60px 60px;
-  display: flex;
-  flex-direction: column;
-}
-
-.firstscreen-user-inputs input:last-child {
-  margin-bottom: 0;
-} */
 
 #userpassword:hover,
 #username:hover,
