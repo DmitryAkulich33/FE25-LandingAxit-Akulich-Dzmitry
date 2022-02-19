@@ -26,7 +26,7 @@
   background: #e2e2e2;
   position: relative;
   margin-bottom: 30px;
-  width: 300px;
+  width: 100%;
 }
 
 .customers-card-feedback-text p {
