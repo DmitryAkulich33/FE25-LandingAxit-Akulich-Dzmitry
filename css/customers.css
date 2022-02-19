@@ -12,6 +12,13 @@
 .customers-card {
   width: 300px;
   margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.customers-card-feedback {
+  flex-grow: 2;
+  display: flex;
 }
 
 .customers-card-feedback-text {
@@ -19,6 +26,7 @@
   background: #e2e2e2;
   position: relative;
   margin-bottom: 30px;
+  width: 300px;
 }
 
 .customers-card-feedback-text p {
