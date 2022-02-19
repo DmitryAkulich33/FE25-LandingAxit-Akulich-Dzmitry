@@ -12,7 +12,6 @@ header {
 .header-row {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   margin: 0 -15px;
