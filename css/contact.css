@@ -31,7 +31,7 @@
   border-bottom: 1px solid #bdbdbd;
   color: #bdbdbd;
   width: 100%;
-  font-size: 21px;
+  font-size: 1.3125rem;
   display: block;
 }
 
@@ -54,7 +54,7 @@
   cursor: pointer;
   transition: 0.2s;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
 }
 

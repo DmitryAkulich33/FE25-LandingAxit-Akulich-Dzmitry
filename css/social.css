@@ -11,14 +11,14 @@
 
 .social-title {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #333333;
   margin-bottom: 14px;
 }
 
 .social .text {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: left;
   color: #86878b;
 }
@@ -50,7 +50,7 @@
 }
 
 .social .fa-brands {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: rgba(151, 148, 148, 0.322);
   transition: 0.2s;
   cursor: pointer;

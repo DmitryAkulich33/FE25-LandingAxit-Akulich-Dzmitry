@@ -27,7 +27,7 @@
 .title {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
   width: 70%;
@@ -46,7 +46,7 @@
 .subtitle {
   text-align: center;
   color: #86878b;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   width: 70%;
   margin: 0 auto 55px;
@@ -58,6 +58,6 @@ body {
 
 .text-input {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #bdbdbd;
 }

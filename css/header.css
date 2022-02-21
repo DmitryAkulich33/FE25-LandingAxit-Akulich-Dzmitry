@@ -24,7 +24,7 @@ header {
 .logo-text-first-part {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #ffffff;
 }
 
@@ -32,7 +32,7 @@ header {
   content: 'IT';
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #ec7979;
 }
 
@@ -60,7 +60,7 @@ header .menu-list__item:first-child {
 
 header .menu-list__item a {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: rgba(255, 255, 255, 0.7);
 }
 

@@ -27,13 +27,13 @@
 
 .awesome .fa-solid,
 .awesome .fa-brands {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #d98943;
 }
 
 .awesome-card-text p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   color: #000000;
 }
@@ -43,5 +43,5 @@
   margin-bottom: 20px;
   color: #333333;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
 }

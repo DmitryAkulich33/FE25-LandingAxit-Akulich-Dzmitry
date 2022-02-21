@@ -31,7 +31,7 @@
 
 .customers-card-feedback-text p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   padding: 10px 20px;
   align-items: center;
   color: #86878b;
@@ -86,14 +86,14 @@
 
 .customers-card-data-info-name p {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: right;
   color: #333333;
 }
 
 .customers-card-data-info-position p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: right;
   color: #86878b;
 }
