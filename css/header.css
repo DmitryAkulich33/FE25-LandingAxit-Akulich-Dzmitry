@@ -67,3 +67,40 @@ header .menu-list__item a {
 header .menu-list__item:hover {
   border-bottom: 3px solid rgba(255, 255, 255, 0.7);
 }
+
+.burger-menu {
+  display: none;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 9px;
+  position: absolute;
+}
+
+.burger-menu:before {
+  content: '';
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 0px;
+  position: absolute;
+}
+
+.burger-menu:after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  bottom: 0px;
+  position: absolute;
+}
