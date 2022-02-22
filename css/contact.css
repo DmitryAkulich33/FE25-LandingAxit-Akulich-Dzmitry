@@ -25,7 +25,6 @@
 }
 
 .contact-form-row input {
-  width: 100%;
   outline: none;
   border: none;
   border-bottom: 1px solid #bdbdbd;
@@ -33,6 +32,7 @@
   width: 100%;
   font-size: 1.3125rem;
   display: block;
+  padding: 0 3px;
 }
 
 .contact-form-row label {
@@ -40,7 +40,7 @@
 }
 
 .contact-form-row-left label {
-  padding-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .send-message {
@@ -73,6 +73,7 @@
   font-weight: normal;
   display: block;
   height: 198px;
+  padding: 20px;
 }
 
 .contact-form-row-right textarea:hover {
