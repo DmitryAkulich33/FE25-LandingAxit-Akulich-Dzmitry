@@ -93,6 +93,11 @@
   font-weight: 600;
   cursor: pointer;
   transition: 0.2s;
+}
+
+.firstscreen-download:hover {
+  background-color: #f0ecec;
+  color: rgb(90, 88, 88);
   animation-name: download-btn;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -106,12 +111,6 @@
   100% {
     transform: scale(1);
   }
-}
-
-.firstscreen-download:hover {
-  background-color: #f0ecec;
-  color: rgb(90, 88, 88);
-  animation-play-state: paused;
 }
 
 .firstscreen-row-form {
